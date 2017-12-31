@@ -1,6 +1,17 @@
+<<<<<<< HEAD
 <aside id="sidebar">
    <% theme.widgets.forEach(function(widget) { %>
         <%- partial('widget/' + widget) %>
     <% }) %>
     <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
+=======
+<% if (Array.isArray(theme.widgets) && theme.widgets.length > 0) { %>
+<aside id="sidebar">
+   <% theme.widgets.forEach(function(widget) { %>
+        <%- partial('widget/' + widget) %>
+    <% }) %>
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+<% } %>
+>>>>>>> 16aff88fe9fc90b9bec1de11879cd261d49c450b

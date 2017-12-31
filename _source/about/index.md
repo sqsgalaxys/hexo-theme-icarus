@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 title: "About"
 layout: "page"
 ---
@@ -204,3 +205,9 @@ All of them are enabled by default. You can edit them in `widget` setting.
 [Grunt]: http://gruntjs.com/
 
 
+=======
+title: "About"
+layout: "page"
+---
+
+>>>>>>> 16aff88fe9fc90b9bec1de11879cd261d49c450b
